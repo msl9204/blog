@@ -1,6 +1,6 @@
 baseURL = 'https://msl9204.github.io/'
 languageCode = 'en-us'
-title = 'my site'
+title = 'Tech Log'
 theme = 'paper-mod'
 
 [menu]
