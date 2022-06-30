@@ -1,3 +1,12 @@
 {{- /* Comments area start */ -}}
+
+
+{{ $currentTheme := cond (eq site.Params.defaultTheme "light") "github-light" "github-dark" }}
+
+
+
+<script src="https://utteranc.es/client.js" repo="msl9204/msl9204.github.io" issue-term="pathname" theme="github-dark"
+    crossorigin="anonymous" async>
+    </script>
 {{- /* to add comments read => https://gohugo.io/content-management/comments/ */ -}}
 {{- /* Comments area end */ -}}
