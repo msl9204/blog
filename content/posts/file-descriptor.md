@@ -2,6 +2,7 @@
 title: "소켓과 파일디스크립터"
 date: 2022-07-16T18:14:48+09:00
 draft: false
+summary: "소켓과 파일디스크립터에 대해 알아봅니다."
 tags: ["OS", "Socket", "File Descriptor", "C", "Linux"]
 ---
 

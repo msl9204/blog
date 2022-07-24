@@ -5,6 +5,12 @@ theme: paper-mod
 
 menu:
   main:
+    - identifier: Improvement
+      name: Self-Improvement
+      title: Improvement
+      url: /improvement/
+      weight: 3
+
     - identifier: archives
       name: Archives
       title: archives
@@ -17,7 +23,12 @@ menu:
       url: /about/
       weight: 1
 
+    
+
 Params:
+  mainSections:
+    - posts
+
   disableThemeToggle: true
   defaultTheme: dark
 
